@@ -14,11 +14,11 @@ p {
 }
 
 a {
-  color: #F79C64;
+  color: #007580;
 }
 
 a:hover {
-  color: #F9B58B;
+  color: #029fad;
 }
 
 /* Design Element */
@@ -44,11 +44,11 @@ a:hover {
 
 .teal-section {
   background-color: #007580;
-  color: #90cbc4;
+  color: #FCFDFD;
 }
 
 .white-section {
-  background-color: #fff;
+  background-color: #FCFDFD;
 }
 
 /* Navigation */
