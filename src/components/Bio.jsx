@@ -5,7 +5,7 @@ export default function Bio() {
         <section className="bio-section white-section container-fluid">
             <div className="row">
                 <div className="bio">
-                    <img className="about-me-img" src="Images/Art Deco Picture-white.png" alt="Picture of Brenna">
+                    <img className="about-me-img" src="Images/Art Deco Picture-white.png" alt="Picture of Brenna" />
                 </div>
                 <div className="bio container-narrow col-lg-10">
                     <h1>About Brenna</h1>
