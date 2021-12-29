@@ -2,21 +2,21 @@ import React from "react";
 
 export default function Navigation() {
     return <div>
-        <section class="teal-section">
-            <nav class="navbar navbar-expand-lg navbar-dark">
-                <a class="navbar-brand" href="index.html">
-                    <img class="nav-home" src="Images/Art Deco Logo-sm.png" alt="Home" />
+        <section className="teal-section">
+            <nav className="navbar navbar-expand-lg navbar-dark">
+                <a className="navbar-brand" href="index.html">
+                    <img className="nav-home" src="Images/Art Deco Logo-sm.png" alt="Home" />
                 </a>
-                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
+                <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span className="navbar-toggler-icon"></span>
                 </button>
-                <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                    <ul class="navbar-nav ml-auto">
-                        <li class="other-pages nav-item">
-                            <a class="nav-link" href="about-me.html">About Me</a>
+                <div className="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul className="navbar-nav ml-auto">
+                        <li className="other-pages nav-item">
+                            <a className="nav-link" href="about-me.html">About Me</a>
                         </li>
-                        <li class="other-pages nav-item">
-                            <a class="nav-link unlinked" href="story.html">Unexpected Gift</a>
+                        <li className="other-pages nav-item">
+                            <a className="nav-link unlinked" href="story.html">Unexpected Gift</a>
                         </li>
                     </ul>
                 </div>
