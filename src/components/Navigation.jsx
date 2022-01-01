@@ -1,5 +1,6 @@
 import React from "react";
-import { Nav, Navbar } from "react-bootstrap";
+import Navbar from "react-bootstrap/Navbar";
+import Nav from "react-bootstrap/Nav";
 
 export default function Navigation() {
     return <Navbar className="teal-section" expand="lg" variant="dark" sticky="top">
