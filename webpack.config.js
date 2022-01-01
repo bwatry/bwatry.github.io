@@ -28,5 +28,12 @@ module.exports = {
         test: /\.(png|svg|jpg|jpeg|gif)$/i,
         type: "asset/resource",
         }]
+  },
+  devServer: {
+    static: {
+      directory: path.join(__dirname, "docs")
+    },
+    compress: true,
+    port: 3000
   }
 };
