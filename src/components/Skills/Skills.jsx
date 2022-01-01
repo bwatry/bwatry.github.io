@@ -1,5 +1,6 @@
 import React from "react";
 import Skill from "./Skill";
+import "./skills.css";
 
 export default function Skills() {
     return <div>

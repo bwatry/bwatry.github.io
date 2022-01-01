@@ -1,5 +1,6 @@
 import React from "react";
 import { Container } from "react-bootstrap";
+import "./intro.css";
 
 export default function Intro() {
     return <Container fluid className="intro-section teal-section">

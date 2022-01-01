@@ -3,11 +3,6 @@
   --bs-body-font-family: Spartan;
 }
 
-body {
-  /* font-family: Spartan, sans-serif; */
-  text-align: center;
-}
-
 h1, h2, h3, h4, h5, h6 {
   font-weight: 400;
 }
@@ -27,7 +22,6 @@ a:hover {
 }
 
 /* Design Element */
-
 .line-break-teal {
   width: 20%;
 }
@@ -38,7 +32,6 @@ a:hover {
 }
 
 /* Containers */
-
 .container-fluid {
   padding: 7% 12%;
 }
@@ -54,66 +47,6 @@ a:hover {
 
 .white-section {
   background-color: #FCFDFD;
-}
-
-/* Navigation */
-
-.nav-home {
-  padding: 0 1em;
-}
-
-.other-pages {
-  padding: 0 20px;
-}
-
-/* Intro Section */
-
-.intro-section {
-  padding: 0 15% ;
-  position: relative;
-  z-index: -1;
-}
-
-.introduction {
-  position: relative;
-  z-index: 1;
-}
-
-.intro-text {
-  font-family: Bilbo Swash Caps, cursive;
-  font-size: 6rem;
-  color: #FCFDFD;
-}
-
-.stylized-img {
-  position: relative;
-  margin-top: -50px;
-}
-
-.brenna-img {
-  position: relative;
-  margin-top: -50px;
-}
-
-/* About Me Section */
-
-.skill {
-  padding: 1.5rem;
-}
-
-.skill-details {
-  padding-bottom: 1rem;
-}
-
-/* Contact Section */
-
-.contact-icon {
-  color: #F79C64;
-  margin: 20px;
-}
-
-.contact-icon:hover {
-  color: #F9B58B;
 }
 
 /* Media Breakpoints */

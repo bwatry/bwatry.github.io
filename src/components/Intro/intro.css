@@ -1,0 +1,26 @@
+.intro-section {
+    padding: 0 15% ;
+    position: relative;
+    z-index: -1;
+  }
+  
+  .introduction {
+    position: relative;
+    z-index: 1;
+  }
+  
+  .intro-text {
+    font-family: Bilbo Swash Caps, cursive;
+    font-size: 6rem;
+    color: #FCFDFD;
+  }
+  
+  .stylized-img {
+    position: relative;
+    margin-top: -50px;
+  }
+  
+  .brenna-img {
+    position: relative;
+    margin-top: -50px;
+  }
