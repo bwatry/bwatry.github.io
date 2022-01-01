@@ -27,8 +27,7 @@ a:hover {
 }
 
 .line-break-gold {
-  margin-top: -5rem;
-  padding-bottom: 3rem;
+  margin-bottom: -1rem;
 }
 
 /* Containers */
@@ -53,7 +52,6 @@ a:hover {
 @media (max-width: 1028px) {
   .line-break-gold {
     width: 10%;
-    margin-top: -2rem;
   }
 
   .intro-section {
