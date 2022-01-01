@@ -6,6 +6,7 @@ import Testimonials from "./Testimonials";
 import Contact from "./Contact";
 import Footer from "./Footer";
 import "bootstrap/dist/css/bootstrap.min.css";
+import "./site-styles.css";
 
 export default function App() {
     return <div>

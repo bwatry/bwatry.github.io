@@ -1,8 +1,8 @@
 import React from "react";
+import { Container } from "react-bootstrap";
 
 export default function Intro() {
-    return <div>
-        <section className="intro-section teal-section">
+    return <Container fluid className="intro-section teal-section">
             <div className="introduction">
                 <p>Hello.</p>
                 <h1 className="intro-text">I'm Brenna Watry</h1>
@@ -10,6 +10,5 @@ export default function Intro() {
             <div className="stylized-img">
                 <img className="brenna-img" src="Images/Art Deco Picture.png" alt="Picture of Brenna Watry" />
             </div>
-        </section>
-    </div>
+    </Container>
 }

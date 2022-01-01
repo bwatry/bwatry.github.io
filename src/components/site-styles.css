@@ -1,3 +1,71 @@
+:root {
+  --bs-body-text-align: center;
+  --bs-body-font-family: Spartan;
+}
+
+body {
+  /* font-family: Spartan, sans-serif; */
+  text-align: center;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-weight: 400;
+}
+
+p {
+  font-weight: 300;
+  line-height: 2;
+  margin: 0;
+}
+
+a {
+  color: #007580;
+}
+
+a:hover {
+  color: #029fad;
+}
+
+/* Design Element */
+
+.line-break-teal {
+  width: 20%;
+}
+
+.line-break-gold {
+  margin-top: -5rem;
+  padding-bottom: 3rem;
+}
+
+/* Containers */
+
+.container-fluid {
+  padding: 7% 12%;
+}
+
+.container-narrow {
+  padding: 3% 10% 0;
+}
+
+.teal-section {
+  background-color: #007580;
+  color: #FCFDFD;
+}
+
+.white-section {
+  background-color: #FCFDFD;
+}
+
+/* Navigation */
+
+.nav-home {
+  padding: 0 1em;
+}
+
+.other-pages {
+  padding: 0 20px;
+}
+
 /* Intro Section */
 
 .intro-section {
@@ -37,8 +105,18 @@
   padding-bottom: 1rem;
 }
 
-/* Media Breakpoints */
+/* Contact Section */
 
+.contact-icon {
+  color: #F79C64;
+  margin: 20px;
+}
+
+.contact-icon:hover {
+  color: #F9B58B;
+}
+
+/* Media Breakpoints */
 @media (max-width: 1028px) {
   .line-break-gold {
     width: 10%;
@@ -71,6 +149,22 @@
 }
 
 @media (max-width: 480px) {
+  h2{
+    font-size: 1.8rem;
+  }
+
+  h3 {
+    font-size: 1.5rem;
+  }
+
+  p {
+    font-size: 1rem;
+  }
+
+  .container-narrow {
+    padding: 7% 10% 0;
+  }
+  
   .intro-text {
     font-size: 4.5rem;
   }
@@ -85,4 +179,5 @@
     position: relative;
     margin-top: -120px;
   }
+
 }
