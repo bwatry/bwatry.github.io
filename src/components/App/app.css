@@ -1,0 +1,114 @@
+:root {
+  --bs-body-text-align: center;
+  --bs-body-font-family: Spartan;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-weight: 400;
+}
+
+p {
+  font-weight: 300;
+  line-height: 2;
+  margin: 0;
+}
+
+a {
+  color: #007580;
+}
+
+a:hover {
+  color: #029fad;
+}
+
+/* Design Element */
+.line-break-teal {
+  width: 20%;
+}
+
+.line-break-gold {
+  margin-bottom: -1rem;
+}
+
+/* Containers */
+.container-fluid {
+  padding: 7% 12%;
+}
+
+.container-narrow {
+  padding: 3% 10% 0;
+}
+
+.teal-section {
+  background-color: #007580;
+  color: #FCFDFD;
+}
+
+.white-section {
+  background-color: #FCFDFD;
+}
+
+/* Media Breakpoints */
+@media (max-width: 1028px) {
+  .line-break-gold {
+    width: 10%;
+  }
+
+  .intro-section {
+    padding: 10% 4%;
+  }
+
+  .skill-item {
+    padding: 3rem;
+  }
+}
+
+@media (max-width: 640px) {
+  .intro-section {
+    padding: 5% 0 0;
+  }
+
+  .intro-text {
+    font-size: 4rem;
+  }
+
+  .stylized-img {
+    margin-top: -80px;
+    text-align: center;
+    transform: scale(0.7);
+  }
+}
+
+@media (max-width: 480px) {
+  h2{
+    font-size: 1.8rem;
+  }
+
+  h3 {
+    font-size: 1.5rem;
+  }
+
+  p {
+    font-size: 1rem;
+  }
+
+  .container-narrow {
+    padding: 7% 10% 0;
+  }
+  
+  .intro-text {
+    font-size: 4.5rem;
+  }
+
+  .stylized-img {
+    margin-left: -25px;
+    margin-top: -120px;
+    transform: scale(0.6);
+  }
+
+  .about-me {
+    position: relative;
+    margin-top: -120px;
+  }
+
+}
