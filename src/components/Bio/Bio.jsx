@@ -1,13 +1,16 @@
 import React from "react";
+import Row from "react-bootstrap/Row";
+import Container from "react-bootstrap/Container";
+import "./bio.css";
+import Col from "react-bootstrap/Col";
 
 export default function Bio() {
-    return <div>
-        <section className="bio-section white-section container-fluid">
-            <div className="row">
-                <div className="bio">
+    return <Container fluid className="bio-section white-section container-fluid">
+            <Row>
+                <Col md="12" lg="auto">
                     <img className="about-me-img" src="Images/Art Deco Picture-white.png" alt="Picture of Brenna" />
-                </div>
-                <div className="bio container-narrow col-lg-10">
+                </Col>
+                <Col md="auto" lg="8">
                     <h1>About Brenna</h1>
                     <p>I've known since I was a child that I wanted to be a writer.
                         I even got a degree in creative writing and published a few short
@@ -28,8 +31,7 @@ export default function Bio() {
                     <p>I made this web site to demonstrate to myself and others what I
                         could do. I hope I've caught your interest!
                     </p>
-                </div>
-            </div>
-        </section>
-    </div>
+                </Col>
+            </Row>
+        </Container>
 }

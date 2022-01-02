@@ -9,34 +9,31 @@ p {
   text-indent: 2rem;
 }
 
-#footer p {
-  text-indent: 0;
-}
-
-.bio-section {
-  padding-bottom: 2%;
-  text-align: left;
-}
-
-.about-me-img {
-  margin-left: -10rem;
-  padding-bottom: 60px;
-  float: left;
-}
-
 /* Media Breakpoints */
-@media (max-width: 1028px) {
+@media (max-width: 1400px) {
   .about-me-img {
   margin-left: -7rem;
   padding-bottom: 0;
+  width: 25em;
   }
 }
 
-@media (max-width: 480px) {
+@media (max-width: 1200px) {
   .about-me-img {
-    margin-left: 0;
-    float: none;
+    width: 20em;
+  }
+}
+
+@media (max-width: 992px) {
+  .about-me-img {
     text-align: center;
+    margin-left: 0;
+  }
+}
+
+@media (max-width: 768px) {
+  .about-me-img {
+    float: none;
     width: 99%;
   }
 }
