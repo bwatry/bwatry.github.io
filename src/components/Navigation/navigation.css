@@ -2,6 +2,20 @@
     padding: 0 1em;
   }
   
-  .other-pages {
-    padding: 0 20px;
+.other-pages {
+  padding: 0 20px;
+}
+
+
+.navbar.sticky-top {
+  @media (max-width: 992px) {
+    .navbar-toggler {
+      margin-right: 1.5rem;
+    }
+    #responsive-navbar-nav {
+      padding: 0 1.5rem 1rem 0;
+      border-bottom: 1px solid rgba(255,255,255,.1);
+      text-align: right;
+    }    
   }
+}
