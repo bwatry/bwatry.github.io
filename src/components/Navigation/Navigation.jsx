@@ -13,6 +13,7 @@ export default function Navigation() {
                 <Navbar.Collapse id="responsive-navbar-nav">
                     <Nav className="me-auto">
                         <Nav.Link className="other-pages" as={Link} to="/about">About Me</Nav.Link>
+                        <Nav.Link className="other-pages" as={Link} to="//breezyfohn.com/#/cancer">My Journey</Nav.Link>
                         <Nav.Link className="other-pages" as={Link} to="/story">Unexpected Gift</Nav.Link>
                     </Nav>
                 </Navbar.Collapse>
