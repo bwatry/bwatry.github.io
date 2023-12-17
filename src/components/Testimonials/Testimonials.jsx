@@ -1,6 +1,7 @@
 import React from "react";
 import Container from "react-bootstrap/Container";
 import Carousel from "react-bootstrap/Carousel";
+import "./testimonials.css";
 
 export default function Testimonials() {
     return <Container fluid id="testimonials" className="teal-section">
