@@ -1,7 +1,16 @@
 .skill {
-    padding: 1.5rem;
+    padding: 1.5rem 2rem;
   }
   
+.skill {
+  .line-break-teal {
+    opacity: .3;
+  }
+}
+  
 .skill-details {
+    padding-top: .5rem;
     padding-bottom: 1rem;
+    text-align: center;
+    text-indent: 0;
   }
