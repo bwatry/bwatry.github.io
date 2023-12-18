@@ -16,10 +16,11 @@ p {
 
 a {
   color: #007580;
-}
-
-a:hover {
-  color: #029fad;
+  @media (hover:hover) {
+    &:hover {
+      color: #029fad;
+    }
+  }
 }
 
 /* Design Element */
@@ -42,11 +43,11 @@ a:hover {
 
 .teal-section {
   background-color: #007580;
-  color: #FCFDFD;
+  color: #ffffff;
 }
 
 .white-section {
-  background-color: #FCFDFD;
+  background-color: #ffffff;
 }
 
 /* Media Breakpoints */

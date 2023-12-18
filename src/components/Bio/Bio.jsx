@@ -8,7 +8,7 @@ export default function Bio() {
     return <Container fluid className="bio-section white-section container-fluid">
             <Row>
                 <Col md="12" lg="auto">
-                    <img className="about-me-img" src="Images/Art Deco Picture-white.png" alt="Picture of Brenna" />
+                    <img className="about-me-img" src="Images/Art Deco Picture-white.png" alt="A picture of Brenna, a blue-haired woman wearing glasses and smiling." title="A picture of Brenna, a blue-haired woman wearing glasses and smiling." />
                 </Col>
                 <Col md="auto" lg="8">
                     <h1>How It Started</h1>
@@ -31,10 +31,10 @@ export default function Bio() {
                     <p>
                         For the last two years, I've been working as a front end developer 
                         in the eCommerce field. I've lost count of the number of sites I've 
-                        integrated on, but some notables include <a href="//www.keenfootwear.com">KEEN Footwear</a>, 
-                        &nbsp;<a href="//camilla.com">Camilla</a>,
-                        and <a href="//www.bluefly.com">Bluefly</a>. 
-                        For more repos, check out <a href="//github.com/bwatry">my GitHub</a>.
+                        integrated on, but some notables include <a href="//www.keenfootwear.com" aria-label="Visit the KEEN website." tabIndex="0">KEEN Footwear</a>, 
+                        &nbsp;<a href="//camilla.com" aria-label="Visit the Camilla website." tabIndex="0">Camilla</a>,
+                        and <a href="//www.bluefly.com" aria-label="Visit the Bluefly website." tabIndex="0">Bluefly</a>. 
+                        For more repos, check out <a href="//github.com/bwatry" aria-label="Go to Brenna's GitHub page." tabIndex="0">my GitHub</a>.
                     </p>
                     <p>
                         I'm always excited to learn something new, like TypeScript, 
