@@ -29,7 +29,7 @@ export default function Bio() {
                     </p>
                     <h1>How It's Going</h1>
                     <p>
-                        For the last two years, I've been working as a front end developer 
+                        Since then, I've been working as a front end developer 
                         in the eCommerce field. I've lost count of the number of sites I've 
                         integrated on, but some notables include <a href="//www.keenfootwear.com" aria-label="Visit the KEEN website." tabIndex="0">KEEN Footwear</a>, 
                         &nbsp;<a href="//camilla.com" aria-label="Visit the Camilla website." tabIndex="0">Camilla</a>,
