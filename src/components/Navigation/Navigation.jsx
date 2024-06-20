@@ -14,7 +14,7 @@ export default function Navigation() {
                     <Nav className="me-auto">
                         <Nav.Link className="other-pages" as={Link} to="/about" tabIndex="0">About Me</Nav.Link>
                         <Nav.Link className="other-pages" as={Link} to="//breezyfohn.com/#/cancer" tabIndex="0">My Journey</Nav.Link>
-                        <Nav.Link className="other-pages" as={Link} to="/story" tabIndex="0">Unexpected Gift</Nav.Link>
+                        {/* <Nav.Link className="other-pages" as={Link} to="/story" tabIndex="0">Unexpected Gift</Nav.Link> */}
                     </Nav>
                 </Navbar.Collapse>
             </Navbar>
